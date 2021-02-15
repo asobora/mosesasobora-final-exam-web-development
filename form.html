@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="meta-8">
+<head>
+	<title>BOOKINGS.</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Add icon library -->
+	<link rel="stylesheet" 
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	
+	<link rel="stylesheet" href="form.css">
+<div class="topnav">
+<a class="active" href="home.html">HOME</a>
+<a href="gallery.html">GALLERY</a>
+<a href="form.html">FORM</a>
+<a href="services.html">SERVICES</a>
+<a href="about.html">ABOUT</a>
+<a href="contact.html">CONTACT</a>
+</div>
+<hr/>
+<br/>
+
+<div class="whole"></div>
+  <div class="col">
+	<a href="www.facebook.com" class="fb btn">
+	  <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+	</a>
+	<a href="www.twitter.com" class="twitter btn">
+	  <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+	</a>
+	<a href="www.gmail.com" class="google btn">
+	  <i class="fa fa-google fa-fw"></i> Login with Google+
+	</a>
+  </div>
+  <div class="vl">
+	<span class="vl-innertext">or</span>
+  </div>
+
+  <div class="col">
+	<div class="hide-md-lg">
+<form action="/action_page.php" style="max-width:500px;margin:auto">
+	<h2>Register Form</h2>
+	<div class="input-container">
+	  <i class="fa fa-user icon"></i>
+	  <input class="input-field" type="text" placeholder="Username" name="usrnm">
+	</div>
+  
+	<div class="input-container">
+	  <i class="fa fa-envelope icon"></i>
+	  <input class="input-field" type="text" placeholder="Email" name="email" required="@">
+	</div>
+	
+	<div class="input-container">
+	  <i class="fa fa-key icon"></i>
+	   <input type="password"  id="text" id="psw" name="psw" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+	   title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required >
+	  
+	</div>
+	
+  
+	<button type="submit" class="btn">Register</button>
+  </form>
+  
+
+</div>
+</body>
+</html>
